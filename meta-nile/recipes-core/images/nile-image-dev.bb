@@ -10,6 +10,10 @@ IMAGE_INSTALL = "\
     valgrind \
     devmem2 \
     tcpdump \
+    netcat \
+    iperf2 \
+    iperf3 \
+    openssh \
     "
 
 IMAGE_INSTALL:append:kula = " host-arm-net-mod"
